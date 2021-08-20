@@ -1,0 +1,27 @@
+.nav{
+position: absolute;
+width: 1860px;
+//height: 35px;  //135
+margin-left: 30px;
+//background-color:  #eeeaea;
+display: flex;
+}
+.navLogo{
+display: flex;
+margin-left: 351px;
+margin-top: 18px;
+margin-right: 104px;
+}
+.logo{
+    margin-right: 30px;
+}
+.nameSite{
+    width: 282px;
+    height: 46px;
+    
+    margin-top: 3px;
+    font-weight: 700;
+    font-size: 18px;
+    font-style: normal;
+    font-family: Raleway;
+}

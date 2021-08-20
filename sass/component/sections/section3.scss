@@ -1,0 +1,84 @@
+.section3{
+    max-width: 100%;
+    //background-color: aquamarine;
+    margin-left: 30px;
+    
+   // margin-bottom: 80px;  
+   
+}
+.container3{
+    max-width: 1860px;
+    background-color: #F1F2F4;
+   
+   // height: 961px
+}
+.our-goals{
+  // position: absolute;
+    width: 822px;
+    padding-left: 321px;
+    padding-top: 100px;
+    right: 0px;
+    margin-right: 106px;
+}
+.purpose{
+   font-family: Raleway; 
+   font-weight: 700;
+   font-size: 24px;  
+    color: #A3C359;
+}
+.our-actions{
+     font-family: Raleway; 
+   font-weight: 400;
+   font-size: 16px;  
+    color: black;
+    
+}
+/*
+.foto{
+    width: 518px;
+    margin-top: -50px;    
+    margin-right: 321px; 
+}
+.tabl{
+    display: inline-flex;
+}
+*/
+.foto{
+    float: right;
+    margin-top: -600px;
+    margin-right: 321px;
+}
+.benefits{
+    display: flex;
+   margin-left: 321px;
+    margin-top: 55px;
+    padding-bottom: 110px;
+}
+.benefits-box{
+    background-color: #ffffff;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    width: 386px;
+    margin-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.picture{
+    position: relative;
+    z-index: 5;
+    top: -12px;
+}
+.colo{
+  position: relative;
+    z-index: 1; 
+    margin-left: -57px; 
+}
+.stethoscope{
+    position: relative;
+    float: left;
+    width: 326px;
+    top: -490px;
+}
