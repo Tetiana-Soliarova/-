@@ -60,11 +60,11 @@ div.sim-slider-arrow-right {
 }
 
 div.sim-slider-arrow-left:hover {
-  opacity: 1;
+  opacity: 1.0;
 }
 
 div.sim-slider-arrow-right:hover {
-  opacity: 1;
+  opacity: 1.0;
 }
 
 div.sim-slider-dots {
@@ -87,4 +87,5 @@ span.sim-dot {
   background-color: #7374ca;
   border-radius: 10px;
   cursor: pointer;
-}/*# sourceMappingURL=slide.css.map */
+}
+/*# sourceMappingURL=slide.css.map */
