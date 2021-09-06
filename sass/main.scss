@@ -1,6 +1,7 @@
 @import "../sass/base/normalize";
 
-
+@import "../sass/component/_style";
+//@import "../sass/component/_header";
 @import "../sass/component/header/_header-logo";
 @import '../sass/component/header/_header-town';
 @import '../sass/component/header/_header-menu';
@@ -11,3 +12,4 @@
 @import '../sass/component/slide.scss';
 @import '../sass/component/sections/_section3.scss';
 @import '../sass/component/sections/_section4.scss';
+@import '../sass/component/sections/_section5.scss';

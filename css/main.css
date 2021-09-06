@@ -256,9 +256,62 @@ summary {
   display: list-item;
 }
 
+body {
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  width: 1860px;
+  margin: 0 auto;
+}
+
+button {
+  background-color: #A3C359;
+  border-radius: 4px;
+  border: 1px solid #A3C359;
+  -webkit-box-shadow: 0px 3px 0px 0px #f1f8e2;
+          box-shadow: 0px 3px 0px 0px #f1f8e2;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  -webkit-box-shadow: 0 9px #F1F2F4;
+          box-shadow: 0 9px #F1F2F4;
+}
+
+button:hover {
+  background-color: #d1f089;
+  color: #423f3f;
+}
+
+button:focus {
+  background-color: #d1f089;
+}
+
+button:active {
+  background-color: #637e25;
+  -webkit-box-shadow: 0 5px #666;
+          box-shadow: 0 5px #666;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+}
+
+h1 {
+  color: #393186;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 1.1;
+}
+
+h2 {
+  color: #393186;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 32px;
+}
+
 .nav {
   position: absolute;
-  width: 1860px;
   margin-left: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -311,9 +364,13 @@ summary {
 
 .town {
   font-size: 16px;
-  font-family: Raleway;
   color: #1F1F1F;
   width: 155px;
+}
+
+.town-n {
+  display: block;
+  margin-right: 5px;
 }
 
 .navMenu {
@@ -365,19 +422,21 @@ summary {
   margin-top: 21px;
 }
 
+.foto-section1 {
+  display: block;
+}
+
 .img1 {
-  margin-top: 55px;
+  margin-top: 171px;
   margin-left: 31px;
   border-radius: 60px;
   width: 676px;
   height: 505px;
-  z-index: 1;
-  position: relative;
 }
 
 .imgTwo {
   position: absolute;
-  margin-top: 93px;
+  margin-top: 216px;
   margin-left: -30px;
   border-radius: 200px;
   width: 178px;
@@ -387,7 +446,7 @@ summary {
 
 .imgThree {
   position: absolute;
-  margin-top: 470px;
+  margin-top: 593px;
   margin-left: -84px;
   border-radius: 10px;
   width: 236px;
@@ -430,10 +489,17 @@ summary {
 .section1 {
   width: 1860px;
   height: 808px;
-  margin-left: 30px;
   background-color: #eeeaea;
 }
 
+/*.container1{
+    display: block;
+    
+  //  height: auto;
+    
+  //  margin-left: 30px;
+   
+}*/
 .consultation {
   position: absolute;
   top: 183px;
@@ -453,10 +519,6 @@ summary {
 }
 
 .title-sections {
-  color: #393186;
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 46px;
   margin-bottom: 39px;
 }
 
@@ -496,22 +558,12 @@ li {
 .constButton {
   width: 313px;
   height: 60px;
-  background-color: #A3C359;
   margin-top: 32px;
-  border-radius: 4px;
-  border: 1px solid #A3C359;
-  color: honeydew;
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 16px;
-  -webkit-box-shadow: 0px 3px 0px 0px #f1f8e2;
-          box-shadow: 0px 3px 0px 0px #f1f8e2;
 }
 
 .section2 {
   position: relative;
   max-width: 100%;
-  margin-left: 30px;
   margin-bottom: 80px;
   height: 631px;
 }
@@ -650,7 +702,6 @@ span.sim-dot {
 
 .section3 {
   max-width: 100%;
-  margin-left: 30px;
 }
 
 .container3 {
@@ -740,8 +791,6 @@ span.sim-dot {
   background-image: url(../../../image/fon.jpg);
   background-repeat: no-repeat;
   background-size: 1858px;
-  margin-left: 30px;
-  margin-right: auto;
 }
 
 .consultation-container {
@@ -757,19 +806,15 @@ span.sim-dot {
 }
 
 .name-doctor {
-  font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  font-style: normal;
   color: #FFFFFF;
   padding-left: 28.5px;
 }
 
 .doctor {
-  font-family: Raleway;
   font-size: 16px;
   font-weight: 400;
-  font-style: normal;
   color: #FFFFFF;
   padding-left: 28.5px;
 }
@@ -787,7 +832,6 @@ span.sim-dot {
 }
 
 .fund-activities {
-  font-family: Raleway;
   font-size: 23px;
   font-weight: 400;
   font-style: italic;
@@ -797,10 +841,8 @@ span.sim-dot {
 .rule {
   margin-left: 97px;
   color: #A3C359;
-  font-family: Raleway;
   font-size: 48px;
   font-weight: 700;
-  font-style: normal;
 }
 
 .quotation-images {
@@ -821,22 +863,19 @@ span.sim-dot {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 10px;
+  margin-bottom: 101px;
 }
 
 .title-form {
-  font-family: Raleway;
   font-size: 32px;
   font-weight: 700;
-  font-style: normal;
   color: #393186;
   margin-bottom: 20px;
 }
 
 .text-form {
-  font-family: Raleway;
   font-size: 16px;
   font-weight: 400;
-  font-style: normal;
   color: black;
   margin-bottom: 31px;
 }
@@ -860,24 +899,7 @@ span.sim-dot {
   padding-bottom: 21px;
   text-align: center;
   width: 372px;
-  background: #A3C359;
-  border-radius: 4px;
-  color: #FFFFFF;
-  font-family: Raleway;
-  font-size: 16px;
-  font-weight: 700;
-  font-style: normal;
   margin-bottom: 20px;
-  border: none;
-}
-
-.button-form:hover {
-  background-color: #d1f089;
-  color: #423f3f;
-}
-
-.button-form:focus {
-  background-color: #d1f089;
 }
 
 .checkbox-form {
@@ -891,10 +913,8 @@ span.sim-dot {
 .form-label-checkbox {
   display: block;
   color: #828282;
-  font-family: Raleway;
   font-size: 14px;
   font-weight: 400;
-  font-style: normal;
   cursor: pointer;
 }
 
@@ -945,5 +965,140 @@ span.sim-dot {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.clinic-section {
+  width: 1349px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.block-clinick {
+  display: block;
+  width: 517px;
+  margin-right: 110px;
+}
+
+.foto-block {
+  display: block;
+  max-width: 593px;
+}
+
+.first-stage {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.6;
+  margin-bottom: 60px;
+}
+
+.clinick-button {
+  width: 386px;
+  padding-top: 20px;
+  padding-bottom: 21px;
+}
+
+.work-clinick {
+  padding-top: 30px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.text-clinick {
+  padding: 0 0px;
+}
+
+.line {
+  width: 802px;
+  margin-left: 58px;
+  padding-top: 40px;
+}
+
+.clinic-section ul {
+  padding-left: 0px;
+}
+
+.work1 {
+  margin-right: 30px;
+}
+
+.work {
+  width: 594px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border: 1px solid #E0E0E0;
+  border-radius: 10px;
+  border-radius: 1px solid 10px;
+  position: relative;
+}
+
+.clock-work {
+  display: block;
+  margin-right: 5px;
+}
+
+.text-work {
+  width: 45px;
+  background-color: #393186;
+  color: #FFFFFF;
+  padding: 28px 37px 26px 30px;
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  height: 100%;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+}
+
+.work:hover .text-work {
+  width: 100%;
+  right: 0px;
+  opacity: 1;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+}
+
+.work:hover .text-work p {
+  opacity: 1;
+}
+
+.text-work p {
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 1.6;
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.section-work {
+  margin-left: 75px;
+  padding-right: 15px;
+  width: 243px;
+}
+
+.icon {
+  padding-left: 18px;
+}
+
+.card-work {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.card-work p {
+  margin-top: 0px;
 }
 /*# sourceMappingURL=main.css.map */

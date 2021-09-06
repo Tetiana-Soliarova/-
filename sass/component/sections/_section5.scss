@@ -1,0 +1,125 @@
+.clinic-section{
+    width: 1349px;
+    margin-left: auto;
+    margin-right: auto;
+    //margin-left: 130px;
+}
+.block{
+    display: flex;
+    
+}
+.block-clinick{
+      display: block;
+      width: 517px;
+      margin-right: 110px;
+}
+.foto-block{
+    display: block;
+    max-width: 593px;
+}
+.first-stage{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.6;
+    margin-bottom: 60px;
+}
+.clinick-button{
+    width: 386px;
+    padding-top: 20px;
+    padding-bottom: 21px;
+}
+.work-clinick{
+  //  position: relative;
+    padding-top: 30px;
+    display: inline-flex;
+}
+.text-clinick{
+  //  position: absolute;
+    //left:58px;
+    //top: 29px;
+    padding: 0 0px;
+
+}
+.line{
+    width: 802px;
+    margin-left: 58px;
+    padding-top: 40px;
+   
+}
+.clinic-section ul{
+padding-left: 0px;
+}
+//ul .work{
+//display: inline-flex;
+//}
+.work1{
+    margin-right: 30px;
+}
+.work{
+    width: 594px;
+    display: inline-flex;
+    //justify-content: center;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    border-radius: 1px solid 10px;
+    //anima
+    position: relative;
+}
+.clock-work{
+   display: block;
+   margin-right: 5px;
+}
+.text-work{
+    width: 45px;
+    background-color: #393186;
+    color: #FFFFFF;
+    padding: 28px 37px 26px 30px;
+  //  display: inline-block;
+    //анимация
+ position: absolute;
+  bottom: 0;
+  //left: 0;
+  right: 0px;
+  //overflow: hidden;
+  //width: 10px;
+  height: 100%;
+  transition: 250ms;
+   //opacity: 0;
+}
+.work:hover .text-work {
+  width: 100%;
+  right: 0px;
+  opacity: 1;
+  transition: 250ms;
+}
+.work:hover .text-work p{
+    opacity: 1;
+}
+
+.text-work p{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 1.6;
+    //анимация
+ position: absolute;
+  top: 70px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+   opacity: 0; 
+}
+
+.section-work{
+    margin-left: 75px;
+    padding-right: 15px;
+    width: 243px;
+}
+.icon{
+    padding-left: 18px;
+}
+.card-work{
+    display: inline-flex;
+}
+.card-work p{
+    margin-top: 0px;
+}

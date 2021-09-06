@@ -26,7 +26,7 @@
 
 <div class="navTown"> 
     <img src="./image/maps-and-flags 1.svg">
-    <p>Ваш город:</p>   
+    <p class="town-n">Ваш город:</p>   
     <select id="selectItem" class="selectItem" >
     
     
@@ -60,10 +60,15 @@
     </ul>
     
 </nav>
-    </header>
-  <main>
-<section class="section1">
+</header>
 
+
+
+
+  <main>
+      <!--секція 1-->
+<section class="section1">
+<div class="container1">
    <div class="foto-section1">
      <img class="img1" src="./image/Rectangle 47.jpg" alt=" ">
     
@@ -89,7 +94,7 @@
         <button class="constButton"> Консультация </button>
     </div>
 
-
+</div>
 </section>
 <!--section 2-->
 <section class="section2">
@@ -291,46 +296,81 @@
 
 <!--SECTION 5 -->
 <section class="clinic-section">
-
-    <div>
-        <h2>Наркологическая клиника</h2>
-        <p>Первый этап чистки организма проводится в наркологиской клинике под присмотром врачей. Берутся анализы,
+<div class="block">
+    <div class="block-clinick">
+        <h1>Наркологическая клиника</h1>
+        <p class="first-stage">Первый этап чистки организма проводится в наркологиской клинике под присмотром врачей. Берутся анализы,
             назначается
             медикаментозная терапия</p>
-        <button type="submit">Узнать больше о клинике</button>
+        <button type="submit" class="clinick-button">Узнать больше о клинике</button>
     </div>
-    <div class="foto-clinic">
+    <div class="foto-block">
         <img srcset="./image/foto-s5/26.jpg 1x,
             ./image/foto-s5/2_6@2x.jpg 2x" 
             src="./image/foto-s5/26.jpg"
              alt="foto">
+             
     </div>
-    <div>
-    <h3>В клинике проводится</h3> 
-    <hr/>
 </div>
+    <div class="work-clinick">
+        
+        <h2 class="text-clinick">В клинике проводится</h2>
+        <div class="line"><hr /></div>  
+    </div>
 <ul>
-    <li>
+    <li class="work work1">   
         <div class="icon ">
-            <svg class="icon-astronaut">
+            <img src="./image/icon/icon1.svg" alt="icon">
+          <!--для спрайта
+               <svg class="icon-astronaut">
                 <use href="./image/icon/icon1.svg"></use>
             </svg>
+        --> 
+    </div>
+    <div class="section-work">
+        <h4>Детоксикация</h4>
+        <div class="card-work">
+            <div class="clock-work">
+                <img src="./image/icon/loading.svg" alt="clock">
+            </div>
+            <p>3-7 дней</p>
+    
         </div>
+    </div>
+    <div class="text-work" style="border-radius: 10px 10px 10px 10px;" >
+        <p>Очищение организма от наркотиков и устранение абстиненции (ломки)</p>
+    </div>
     </li>
-    <li>
+    
+    <li class="work">
         <div class="icon ">
-            <svg class="general icon-astronaut">
-                <use href="./image/icon/icon2.svg"></use>
-            </svg>
+            <img src="./image/icon/icon2.svg" alt="icon">
+            <!-- <svg class="general icon-astronaut">
+                        <use href="./image/icon/icon2.svg"></use>
+                    </svg>-->
+        </div>
+        <div class="section-work">
+            <h4>Медикаметозная терапия</h4>
+            <div class="card-work">
+                <div class="clock-work">
+                    <img src="./image/icon/loading.svg" alt="clock">
+                </div>
+                <p>около 1 месяца</p>
+            </div>
+        </div>
+    
+        <div class="text-work" style="border-radius: 10px 10px 10px 10px;">
+            <p>Восстановление организма и лечение имеющихся заболеваний</p>
         </div>
     </li>
-</ul>
-</section>
-
-
-
-
-</main>
+    
+    </ul>
+    </section>
+    
+    
+    
+    
+    </main>
     <footer></footer>
     <!-- подключение слайдера -->
     <script src="./js/slide.js"></script>
