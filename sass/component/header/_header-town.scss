@@ -7,12 +7,14 @@ margin-right: 90px;
 }
 .selectItem{
     display: block;
-    text-align: center;
+    //text-align: center;
+    padding-left: 15px;
     width: 245px;
     height: 47px;
-    border: 1px solid #393186;
-    box-shadow: 0px 4px 4px rgba(59, 23, 143, 0.5);
+    border: 1px solid #E5E5E5;
+    box-shadow: 0px 4px 4px #c4bdbd;
     border-radius: 4px;
+    outline: none;
     //text-align: center;
 }
 .town{

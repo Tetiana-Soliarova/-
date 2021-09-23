@@ -83,20 +83,22 @@ padding-left: 0px;
   //overflow: hidden;
   //width: 10px;
   height: 100%;
-  transition: 250ms;
+  transition: 2s;
    //opacity: 0;
 }
 .work:hover .text-work {
-  width: 100%;
+  width: 80%;
   right: 0px;
   opacity: 1;
-  transition: 250ms;
+  //transition: 2s, color 5s;
 }
 .work:hover .text-work p{
     opacity: 1;
+    
 }
 
 .text-work p{
+   
     font-size: 16px;
     font-weight: 400px;
     line-height: 1.6;
@@ -107,6 +109,8 @@ padding-left: 0px;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
    opacity: 0; 
+   transition: 2s, color 5s;
+   
 }
 
 .section-work{
@@ -122,4 +126,32 @@ padding-left: 0px;
 }
 .card-work p{
     margin-top: 0px;
+}
+.centre{
+background-color: #E0E0E0;
+}
+
+//task
+
+.card-task{
+    display: inline-flex;
+    max-width: 386px;
+    background-color: white;
+border-radius: 10px;
+border: 1px solid #E0E0E0;
+
+
+}
+.icon-task{
+    display: inline-block;
+    padding: 25px 10px 25px 25px;
+    
+}
+.tasks{
+    display: block;
+}
+.rehabilitation-tasks{
+    width: 1218px;
+display: flex;
+justify-content: space-between;
 }

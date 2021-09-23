@@ -7,6 +7,9 @@ body{
    // letter-spacing: 0.03em;
     margin: 0 auto;
 }
+
+
+//button green/
 button{
    background-color: #A3C359; 
    border-radius: 4px;
@@ -16,7 +19,7 @@ button{
    font-size: 16px;
     font-weight: 700;
     border: none;
-    box-shadow: 0 9px #F1F2F4;;
+    box-shadow: 0 9px #c4bdbd;
 }
 button:hover{
   background-color: #d1f089;
@@ -31,6 +34,11 @@ button:active{
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
+
+
+
+
 h1{
   color: #393186;
     font-family: Raleway;
@@ -43,4 +51,18 @@ h2{
     font-family: Raleway;
     font-weight: 700;
     font-size: 32px;
+}
+
+h4{
+  font-family: Raleway;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h3{
+  font-family: Raleway;
+    font-weight: 700;
+    font-size: 24px;
+    
 }
