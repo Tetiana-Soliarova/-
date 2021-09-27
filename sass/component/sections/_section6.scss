@@ -20,10 +20,20 @@
 
 
 .results{
-    width: 1349px;
+   // width: 1218px;
     margin-left: auto;
     margin-right: auto;
+    
 }
+
+.conteiner-cente{
+    width: 1218px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
 
 .results-text{
     font-weight: normal;
@@ -32,7 +42,7 @@
 
 .container-video{
 
-margin-right: 60px;
+//margin-right: 60px;
 border-radius: 10px;
     border: 1px solid #F1F2F4;
     height: 668px;
@@ -41,11 +51,12 @@ border-radius: 10px;
 }
 
 .video-review{
-    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
 }
 .container-review{
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     
 }
 .review{

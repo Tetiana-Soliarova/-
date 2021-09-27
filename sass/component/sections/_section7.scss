@@ -1,0 +1,50 @@
+.section-price{
+    background-color: #F1F2F4;
+    border-radius: 10px;
+}
+
+.container-services{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    //padding-right: 60px;
+    
+    
+}
+.container-service-prise{
+    width: 1218px;
+    //1349px;
+    margin-left: auto;
+    margin-right: auto;
+    //padding-left: 60px;
+}
+.table-services{
+    
+width: 100%;
+padding-left: 40px;
+padding-right: 40px;
+border: 1px solid #E0E0E0;
+padding-bottom: 40px;
+}
+.table-services td {
+  border-top: 1px solid #ccc;
+  padding: 9px 8px;
+  
+}
+.table-services caption{
+    background-color: #393186;
+    color: white;
+    border-radius: 10px;
+}
+.table-button{
+    width: 100%;
+    height: 60px;
+    padding: 0px;
+}
+
+.block-table{
+    width: 594px;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 80px;
+    background-color: white;
+}
