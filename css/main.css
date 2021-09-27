@@ -819,7 +819,7 @@ span.sim-dot {
 }
 
 .consultation-section {
-  background-image: url(../../../image/fon.jpg);
+  background-image: url("../../../image/fon.jpg");
   background-repeat: no-repeat;
   background-size: 1858px;
 }
