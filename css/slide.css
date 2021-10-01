@@ -60,11 +60,11 @@ div.sim-slider-arrow-right {
 }
 
 div.sim-slider-arrow-left:hover {
-  opacity: 1.0;
+  opacity: 1;
 }
 
 div.sim-slider-arrow-right:hover {
-  opacity: 1.0;
+  opacity: 1;
 }
 
 div.sim-slider-dots {

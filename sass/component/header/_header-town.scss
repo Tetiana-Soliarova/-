@@ -7,7 +7,6 @@ margin-right: 90px;
 }
 .selectItem{
     display: block;
-    //text-align: center;
     padding-left: 15px;
     width: 245px;
     height: 47px;
@@ -15,18 +14,12 @@ margin-right: 90px;
     box-shadow: 0px 4px 4px #c4bdbd;
     border-radius: 4px;
     outline: none;
-    //text-align: center;
+   
 }
 .town{
-    //display: block;
-    //text-align: center;
-    //justify-items: center;
     font-size: 16px;
-   // font-family: Raleway;
     color: #1F1F1F;
     width: 155px;
-   // padding-right: 10px;
-    //margin-left: 19px;
 }
 
 .town-n{
@@ -34,7 +27,12 @@ margin-right: 90px;
     margin-right: 5px;
 }
 
-
+.imgTown{
+    width: 17px;
+    height: 24px;
+    margin-right: 5px;
+    margin-top: 14px;
+}
 
 
 

@@ -2,7 +2,6 @@
     width: 1349px;
     margin-left: auto;
     margin-right: auto;
-    //margin-left: 130px;
 }
 .block{
     display: flex;
@@ -30,15 +29,10 @@
     padding-bottom: 21px;
 }
 .work-clinick{
-  //  position: relative;
     padding-top: 30px;
     display: inline-flex;
-    //margin-left: 60px;
 }
 .text-clinick{
-  //  position: absolute;
-    //left:58px;
-    //top: 29px;
     padding: 0 0px;
 
 }
@@ -52,20 +46,16 @@
 padding-left: 0px;
 
 }
-//ul .work{
-//display: inline-flex;
-//}
+
 .work1{
     margin-right: 30px;
 }
 .work{
     width: 594px;
     display: inline-flex;
-    //justify-content: center;
     border: 1px solid #E0E0E0;
     border-radius: 10px;
     border-radius: 1px solid 10px;
-    //anima
     position: relative;
 }
 .clock-work{
@@ -77,23 +67,17 @@ padding-left: 0px;
     background-color: #393186;
     color: #FFFFFF;
     padding: 28px 37px 26px 30px;
-  //  display: inline-block;
     //анимация
  position: absolute;
   bottom: 0;
-  //left: 0;
   right: 0px;
-  //overflow: hidden;
-  //width: 10px;
   height: 100%;
   transition: 2s;
-   //opacity: 0;
 }
 .work:hover .text-work {
   width: 80%;
   right: 0px;
   opacity: 1;
-  //transition: 2s, color 5s;
 }
 .work:hover .text-work p{
     opacity: 1;
