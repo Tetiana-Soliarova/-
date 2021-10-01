@@ -549,7 +549,7 @@
         <section class="section-price">
             <div class="container-service-prise">
             <div>
-                <h1> Услуги и цены</h1>
+                <h1 class="service-prise-title"> Услуги и цены</h1>
                 <p>Цены в других филиах могут отличаться. Узнать точную стоимость услуг Вы можете по телефону 8 (800)
                     200-00-22</p>
             </div>
@@ -701,34 +701,76 @@
     </div>
 </div>
 <!--КАРТОЧКИ-->
-<div class="card1">
-            <div>
-                <img src="./image/icon/ик1.svg" alt="clock">
-                <h3>Отсрочка платежа</h3>
-            </div>
-            <p>Идём на встречу в любой сложной финансовой ситуации. Готовы предоставить отсрочку платежа.</p>
+<div class="card-payment">
+<div class="card">
+<div class="card-information">
+    <div class="title-card">
+        <img src="./image/icon/ик1.svg" alt="clock">
+        <h3>Отсрочка <br> платежа</h3>
+    </div>
+    <p class="card-description">Идём на встречу в любой сложной финансовой ситуации. Готовы предоставить отсрочку платежа.</p>
+<br>
+    <div class="card-inform">
+        <img class="card-telImg" src="./image/phone 1.svg">
+
+        <div class="inform-tel">
+            <p class="deferral-information">Узнать информацию по отсрочке</p>
+            <span class="telefon">
+                <a href="+378002109938" >8(800)210-99-38</a></span>
+          
+            <p class="telefonSite">Бесплатный двонок по Украине</p>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="card">
+    <div class="card-information">
+        <div class="title-card">
+            <img src="./image/icon/ик2.svg" alt="calendar">
+            <h3>Рассрочка платежа</h3>
+        </div>
+        <p class="card-description">Гибкие условия оплаты обговариваем и закрепляем в договоре. Наиболее часто применяется помесячная оплата.</p>
+
+        <div 
+        class="visa">
+        <h4>Принимаем к оплате</h4>
+            <img class="card-visa" src="./image/icon/cards.svg">
+
             
-<div>
-
-    <img class="logoImg" src="./image/phone 1.svg">
-
-<div>
-    <p>Узнать информацию по отсрочке</p>
-    <a class="logoPhone">
-        <p class="telefon">8(800)210-99-38</p>
-    </a>
-    <p class="telSite">Бесплатный двонок по Украине</p>
-</div>
+        </div>
+    </div>
 </div>
 
-            
+<div class="card">
+    <div class="card-information">
+        <div class="title-card">
+            <img src="./image/icon/ик3.svg" alt="clock">
+            <h3>Выгодное <br>предложение  </h3>
+        </div>
+        <h3 class="discount">
+            <span class="percent" style="color: #EB5757;
+    font-size: 48px; margin-bottom: 10px;">50%</span>
+            Скидка на первый месяц реабилитации
+        </h3>
+        <p class="card-description">При разовой оплате курса реабилитации от 6 месяцев</p>
 
+        <button type="button" class="card-button">Узнать подробнее</button>
+        </div>
+    </div>
 </div>
-
+</div>
           </div>  
+
+
+         
         
         </section>
-    
+
+ <!--SECTION 8-->    
+ <section>
+    <div id='map' style="width: 100%;height:400px;">My map will go here</div>
+ </section>
     
     </main>
     <footer>rrrrrrrrrrrrrrrr</footer>
@@ -736,5 +778,8 @@
     <script src="./js/slide.js"></script>
     <!-- вызов слайдера -->
     <script>new Sim()</script>
+    <!-- подключение карты Google -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDR8P72HMX3zllKeeZt8X89dJWMEu0LSX8&callback=myMap" async
+        defer></script>
 </body>
 </html>
