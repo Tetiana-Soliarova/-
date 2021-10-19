@@ -8,6 +8,15 @@
   border-radius: 60px;
   width: 676px;
   height: 505px;
+  
+  @media screen and (max-width:1199px){
+    height: 441px;
+    width: 590px;
+  }
+  @media screen and (max-width:767px){
+    height: 237px;
+    width: 320px;
+  }
 }
 .imgTwo {
   position: absolute;
@@ -38,10 +47,29 @@
 }
 
 .section1 {
-  width: 1860px;
-  height: 808px;
   background-color: #eeeaea;
   border-radius: 0px 0px 10px 10px;
+  
+  @media screen and (min-width:1860px){
+    height: 900px;
+    width: 1860px;
+  }
+  @media screen and (max-width:1859px){
+    height: 900px;
+    width: 100%;
+  }
+  @media screen and (max-width:1200px){
+    height: 1453px;
+    min-width: 768px;
+  }
+  @media screen and (max-width:768px){
+    height: 1676px;
+    max-width: 768px;
+  } 
+  @media screen and (max-width:320px){
+    height: 1676px;
+    max-width: 320px;
+  } 
 }
 
 // прайс

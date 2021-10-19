@@ -2,8 +2,26 @@
   background-color: #393186;
   position: absolute;
   margin-top: 88px;
-  min-width: 1860px;
   height: 35px;
+
+  @media screen and (min-width:1860px){
+    width: 1860px;
+  }
+  @media screen and (max-width:1859px){
+    width: 100%;
+  }
+  @media screen and (max-width:1200px){
+    min-width: 768px;
+    height: 87px;
+  }
+  @media screen and (max-width:768px){
+    max-width: 768px;
+    height: 87px;
+  } 
+  @media screen and (max-width:320px){
+    max-width: 320px;
+    height: 74px;
+  }
 }
 .navMenuUl {
   display: flex;

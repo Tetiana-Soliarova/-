@@ -1,11 +1,11 @@
 @import "../sass/base/normalize";
 
 @import "../sass/component/_style";
-//@import "../sass/component/_header";
 @import "../sass/component/header/_header-logo";
 @import '../sass/component/header/_header-town';
 @import '../sass/component/header/_header-menu';
 @import '../sass/component/header/_header-phone';
+@import '../sass/component/header/_header-button';
 
 @import '../sass/component/sections/_section1.scss';
 @import '../sass/component/sections/_section2.scss';

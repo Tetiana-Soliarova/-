@@ -1,11 +1,21 @@
+/*html{
+/////////////ecr//
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}*/
 body {
   background-color: white;
   font-family: "Raleway", sans-serif;
   font-style: normal;
-  width: 1860px;
+  width: 1860px;  ///
+  //max-width: 100%;  /// 
+  overflow-x: hidden;  ///
+  
+
   margin: 0 auto;
 }
-button {
+.style-button{
   background-color: #a3c359;
   border-radius: 4px;
   border: 1px solid #a3c359;
@@ -16,14 +26,14 @@ button {
   border: none;
   box-shadow: 0 9px #c4bdbd;
 }
-button:hover {
+.style-button:hover {
   background-color: #d1f089;
   color: rgb(66, 63, 63);
 }
-button:focus {
+.style-button:focus {
   background-color: #d1f089;
 }
-button:active {
+.style-button:active {
   background-color: #637e25;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
