@@ -5,9 +5,20 @@ display: flex;
 }
 .navLogo{
 display: flex;
-margin-left: 351px;
-margin-top: 18px;
-margin-right: 104px;
+ 
+@media screen and (min-width:769px){
+    margin-left: 351px;
+    margin-top: 18px;
+    margin-right: 104px;
+  }
+@media screen and (max-width:768px){
+    margin-left: 20px;
+margin-top: 15px;
+//margin-right: 104px;
+  }
+@media screen and (max-width:320px){
+    
+  }
 }
 .logo{
     margin-right: 30px;

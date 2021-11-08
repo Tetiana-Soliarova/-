@@ -1,5 +1,8 @@
+.menu-button{
+    border-top-color: brown;
+}
 .menu-button{   
- //background-color: hotpink;
+ width: 50px;
     @media screen and (max-width:767px){
     display: inline-flex;
     margin: 10px;
@@ -17,7 +20,8 @@
 }
 }
 .menu-container{
-    background-color: #ffffff;
+    background-color: blue;
+    //background-color: #ffffff;
 @media screen and (max-width:767px){
      display: none;
      position: absolute;

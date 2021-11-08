@@ -3,17 +3,9 @@
   position: absolute;
   margin-top: 88px;
   height: 35px;
+  max-width: 1860px;
 
-  @media screen and (min-width:1860px){
-    width: 1860px;
-  }
-  @media screen and (max-width:1859px){
-    width: 100%;
-  }
-  @media screen and (max-width:1200px){
-    min-width: 768px;
-    height: 87px;
-  }
+  
   @media screen and (max-width:768px){
     max-width: 768px;
     height: 87px;

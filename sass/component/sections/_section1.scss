@@ -1,5 +1,18 @@
 .foto-section1 {
   display: block;
+
+  @media screen and (max-width:768px){
+    height: 1676px;
+    max-width: 768px;
+  } 
+  @media screen and (max-width:320px){
+    height: 1676px;
+    max-width: 320px;
+  } 
+
+
+
+
 }
 
 .img1 {
@@ -49,7 +62,7 @@
 .section1 {
   background-color: #eeeaea;
   border-radius: 0px 0px 10px 10px;
-  
+  /*
   @media screen and (min-width:1860px){
     height: 900px;
     width: 1860px;
@@ -61,10 +74,10 @@
   @media screen and (max-width:1200px){
     height: 1453px;
     min-width: 768px;
-  }
+  }*/
   @media screen and (max-width:768px){
     height: 1676px;
-    max-width: 768px;
+    min-width: 768px;
   } 
   @media screen and (max-width:320px){
     height: 1676px;
@@ -75,16 +88,40 @@
 // прайс
 
 .consultation {
+  background-color: #eeeaea;
+
+  @media screen and (min-width:769px){
   position: absolute;
   top: 183px;
   margin-left: 945px;
   width: 594px;
   height: 613px;
   z-index: 3;
-
-  background-color: #eeeaea;
+  } 
+  @media screen and (max-width:320px){
+    
+  } 
 }
 
+.adaptive-consultation{
+  @media screen and (max-width:768px){
+    display: flex;
+    top: 100px;
+
+  position: absolute;
+ 
+  margin-left: auto;
+  margin-right: auto;
+
+  //width: 594px;
+  height: 153px;
+  z-index: 3;
+  } 
+  @media screen and (max-width:320px){
+    
+  }
+
+}
 .miniTitle {
   color: #a3c359;
   font-family: Raleway;
@@ -120,6 +157,22 @@ li {
 }
 .consult {
   padding-left: 0px;
+
+  @media screen and (min-width:1860px){
+    
+  }
+  @media screen and (max-width:1859px){
+    
+  }
+  @media screen and (max-width:1200px){
+    
+  }
+  @media screen and (max-width:768px){
+    
+  } 
+  @media screen and (max-width:320px){
+    
+  } 
 }
 .elips {
   margin-right: 21px;
